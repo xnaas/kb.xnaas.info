@@ -3,7 +3,7 @@ site_name: xnaasKB
 site_description: 'knowledgebase for xnaas'
 site_author: 'xnaas'
 copyright: 'Copyright &copy; 2018 - 2021 xnaas'
-site_url: 'https://kb2.xnaas.info'
+site_url: 'https://kb.xnaas.info'
 repo_url: 'https://github.com/xnaas/kb.xnaas.info'
 repo_name: 'xnaas/kb.xnaas.info'
 edit_uri: 'blob/master/src/docs/'
