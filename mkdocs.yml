@@ -1,0 +1,68 @@
+# General Config
+site_name: xnaasKB
+site_description: 'knowledgebase for xnaas'
+site_author: 'xnaas'
+copyright: 'Copyright &copy; 2018 - 2021 xnaas'
+site_url: 'https://kb2.xnaas.info'
+repo_url: 'https://github.com/xnaas/kb.xnaas.info'
+repo_name: 'xnaas/kb.xnaas.info'
+edit_uri: 'blob/master/src/docs/'
+docs_dir: 'src/docs'
+site_dir: 'website'
+extra_css:
+  - css/screenshot-admonition.css
+
+# Plugins Config
+plugins:
+  - awesome-pages
+  - search:
+      lang: en
+  - pagenav-generator
+
+# Theme Config
+theme:
+  name: material
+  locale: en
+  custom_dir: 'src/theme'
+  palette:
+    scheme: slate
+    primary: green
+    accent: light green
+  favicon: favicon.png
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+  font: false
+
+# Extentions Config
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - meta
+  - pymdownx.caret:
+      smart_insert: false
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.escapeall
+  - pymdownx.highlight:
+      anchor_linenums: true
+      auto_title: true
+      linenums: true
+      line_anchors: codeline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.saneheaders
+  - pymdownx.superfences:
+      disable_indented_code_blocks: true
+  - tables
+  - toc:
+      permalink: '#'
