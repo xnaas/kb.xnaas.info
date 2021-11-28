@@ -28,7 +28,7 @@ theme:
     scheme: slate
     primary: green
     accent: light green
-  favicon: favicon.png
+  favicon: favicon.ico
   features:
     - navigation.instant
     - navigation.tabs
