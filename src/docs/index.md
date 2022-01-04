@@ -38,7 +38,7 @@ Another popular wiki solution right now is [BookStack](https://www.bookstackapp.
 I didn't go with that. I considered it for a moment, but my same dislike for [PHP](https://en.wikipedia.org/wiki/PHP)
 prevailed here. It does look pretty though.
 
-## Why Wiki.js?
+## Why not Wiki.js?
 
 Most recently, I actually ported here, to [mkdocs](https://www.mkdocs.org), from [Wiki.js](https://js.wiki).
 
