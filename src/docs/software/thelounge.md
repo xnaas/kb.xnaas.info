@@ -25,9 +25,6 @@ I use the [Solarized theme](https://www.npmjs.com/package/thelounge-theme-solari
 #chat .userlist .names .user[data-name="feek"] {
   color: #00ff00;
 }
-#chat .msg .user[data-name="feek[D]"] {
-  color: #00ff00;
-}
 #chat .msg .user[data-name="Sackbot"] {
   color: yellow;
 }
@@ -57,17 +54,12 @@ I use the [Solarized theme](https://www.npmjs.com/package/thelounge-theme-solari
   width: 130px;
 }
 
-/* Make the sidebar thinner */
+/* Make the server/channel list thinner */
 #sidebar {
   width: 165px;
 }
 
-/* Hide TheLounge logo */
-#sidebar .logo-container {
-  display: none;
-}
-
-/* Change some server/channel list stuff */
+/* Make server/channel list more compact */
 #sidebar .network {
   margin-bottom: 7px;
 }
@@ -76,7 +68,13 @@ I use the [Solarized theme](https://www.npmjs.com/package/thelounge-theme-solari
   padding: 5px 18px;
 }
 
+/* Hide The Lounge logo */
+#sidebar .logo-container {
+  display: none;
+}
+
 /* Increase font size because I'm fucking blind */
+/* This is not friendly across all platforms */
 #chat .msg {
   font-size: 1.1em;
 }
@@ -101,13 +99,14 @@ I use the [Solarized theme](https://www.npmjs.com/package/thelounge-theme-solari
   display: none;
 }
 
-/* website image embed size, maybe? */
+/* website thumbnail size, maybe? */
 #chat .toggle-content .thumb {
   max-width: 120px;
   max-height: 80px;
 }
 
 /* Image Embed Size */
+/* This is not friendly across all platforms */
 #chat .toggle-content img {
   max-width: 480px;
   max-height: 270px;
@@ -124,6 +123,7 @@ I use the [Solarized theme](https://www.npmjs.com/package/thelounge-theme-solari
 }
 
 /* Functional Hover Spoilers */
+/* Credit: https://bit.ly/3H5NGHU */
 .irc-fg0.irc-bg0:hover, .irc-fg3.irc-bg3:hover,
 .irc-fg7.irc-bg7:hover, .irc-fg8.irc-bg8:hover,
 .irc-fg9.irc-bg9:hover, .irc-fg10.irc-bg10:hover,
