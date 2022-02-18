@@ -13,34 +13,40 @@ I use the [Solarized theme](https://www.npmjs.com/package/thelounge-theme-solari
 
 ```css
 /* Custom Nick Colors */
-#chat .msg .user[data-name="xnaas"] {
+#chat .msg .user[data-name="xnaas" i] {
   color: #ff79c6;
 }
-#chat .userlist .names .user[data-name="xnaas"] {
+#chat .userlist .names .user[data-name="xnaas" i] {
   color: #ff79c6;
 }
-#chat .msg .user[data-name="feek"] {
+#chat .msg .user[data-name="feek" i] {
   color: #00ff00;
 }
-#chat .userlist .names .user[data-name="feek"] {
+#chat .userlist .names .user[data-name="feek" i] {
   color: #00ff00;
 }
-#chat .msg .user[data-name="Sackbot"] {
+#chat .msg .user[data-name="Sackbot" i] {
   color: yellow;
 }
-#chat .userlist .names .user[data-name="Sackbot"] {
+#chat .userlist .names .user[data-name="Sackbot" i] {
   color: yellow;
 }
-#chat .msg .user[data-name="fecktk"] {
+#chat .msg .user[data-name="Tasian" i] {
+  color: yellow;
+}
+#chat .userlist .names .user[data-name="Tasian" i] {
+  color: yellow;
+}
+#chat .msg .user[data-name="fecktk" i] {
   color: #ed6f15;
 }
-#chat .userlist .names .user[data-name="fecktk"] {
+#chat .userlist .names .user[data-name="fecktk" i] {
   color: #ed6f15;
 }
-#chat .msg .user[data-name="jajabro1"] {
+#chat .msg .user[data-name="jajabro1" i] {
   color: #ed6f15;
 }
-#chat .userlist .names .user[data-name="jajabro1"] {
+#chat .userlist .names .user[data-name="jajabro1" i] {
   color: #ed6f15;
 }
 
