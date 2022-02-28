@@ -49,6 +49,12 @@ I use the [Solarized theme](https://www.npmjs.com/package/thelounge-theme-solari
 #chat .userlist .names .user[data-name="jajabro1" i] {
   color: #ed6f15;
 }
+#chat .msg .user[data-name="Aegisfate" i] {
+  color: #117117;
+}
+#chat .userlist .names .user[data-name="Aegisfate" i] {
+  color: #117117;
+}
 
 /* Make #channels appears as links */
 #chat .inline-channel {
