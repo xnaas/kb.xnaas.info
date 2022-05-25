@@ -13,45 +13,27 @@ I use the [Solarized theme](https://www.npmjs.com/package/thelounge-theme-solari
 
 ```css
 /* Custom Nick Colors */
-#chat .msg .user[data-name="xnaas" i] {
-  color: #ff79c6;
-}
+#chat .msg .user[data-name="xnaas" i],
 #chat .userlist .names .user[data-name="xnaas" i] {
   color: #ff79c6;
 }
-#chat .msg .user[data-name="feek" i] {
-  color: #00ff00;
-}
+#chat .msg .user[data-name="feek" i],
 #chat .userlist .names .user[data-name="feek" i] {
   color: #00ff00;
 }
-#chat .msg .user[data-name="Sackbot" i] {
-  color: yellow;
-}
-#chat .userlist .names .user[data-name="Sackbot" i] {
-  color: yellow;
-}
-#chat .msg .user[data-name="Tasian" i] {
-  color: yellow;
-}
+#chat .msg .user[data-name="Sackbot" i],
+#chat .userlist .names .user[data-name="Sackbot" i],
+#chat .msg .user[data-name="Tasian" i],
 #chat .userlist .names .user[data-name="Tasian" i] {
   color: yellow;
 }
-#chat .msg .user[data-name="fecktk" i] {
-  color: #ed6f15;
-}
-#chat .userlist .names .user[data-name="fecktk" i] {
-  color: #ed6f15;
-}
-#chat .msg .user[data-name="jajabro1" i] {
-  color: #ed6f15;
-}
+#chat .msg .user[data-name="fecktk" i],
+#chat .userlist .names .user[data-name="fecktk" i],
+#chat .msg .user[data-name="jajabro1" i],
 #chat .userlist .names .user[data-name="jajabro1" i] {
   color: #ed6f15;
 }
-#chat .msg .user[data-name="Aegisfate" i] {
-  color: #117117;
-}
+#chat .msg .user[data-name="Aegisfate" i],
 #chat .userlist .names .user[data-name="Aegisfate" i] {
   color: #117117;
 }
@@ -117,11 +99,12 @@ I use the [Solarized theme](https://www.npmjs.com/package/thelounge-theme-solari
   max-height: 80px;
 }
 
-/* Image Embed Size */
-/* This is not friendly across all platforms */
-#chat .toggle-content img {
-  max-width: 480px;
-  max-height: 270px;
+/* Image & Video Embed Size */
+/* This is NOT friendly across all platforms */
+#chat .toggle-content img,
+#chat video {
+  max-width: 100%;
+  max-height: 480px;
 }
 
 /* I don't even remember */
@@ -131,7 +114,7 @@ I use the [Solarized theme](https://www.npmjs.com/package/thelounge-theme-solari
 
 /* Bigger CSS Box by Default */
 #user-specified-css-input {
-  height: 600px !important;
+  height: 700px !important;
 }
 
 /* Functional Hover Spoilers */
