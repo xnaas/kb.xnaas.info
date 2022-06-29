@@ -20,6 +20,13 @@ og_title: Bitwarden
 
 ### Steam
 
+!!! danger "**WARNING**"
+    This is *not* the same experience as using the actual Steam mobile app.
+    Some limitations include: not being able to confirm trades, not being
+    able to reset your password without removing the "authenticator" first,
+    and more. This is purely a convience feature that allows you to have your
+    2FA in Bitwarden with everything else.
+
 1. Follow the [install and setup instructions for the SDA](https://github.com/Jessecar96/SteamDesktopAuthenticator).
     
     !!! note
